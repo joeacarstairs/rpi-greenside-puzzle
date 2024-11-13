@@ -1,0 +1,18 @@
+= Cipher example
+
+Write out the 'from' cipher on top of the 'to' cipher. For example:
+
+zed bcu pqa rts wlx ymo nfj hvg ki
+lws tra qpu cbd ezi kgv hjf nom yx
+
+Then you encrypt your message by turning every letter in the top row into the
+letter directly beneath it in the bottom row. So 'z' becomes 'l', 'e' becomes
+'w', and so on.
+
+For example:
+
+hello world
+nwzzv evczs
+
+To decrypt it, of course, you have to go the opposite way.
+
