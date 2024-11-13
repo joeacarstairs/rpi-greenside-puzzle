@@ -1,0 +1,7 @@
+= Looking for files
+
+If you want to look for files, you can list all the files in your current
+directory with `ls`:
+
+ls
+

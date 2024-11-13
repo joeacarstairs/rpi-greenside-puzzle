@@ -1,0 +1,62 @@
+= Sending commands to the SIM device
+
+To send commands to the SIM device, use a program called `minicom`. For example:
+
+minicom -D /dev/ttyS0
+
+`minicom` connects to the SIM device, which is represented by `/dev/ttyS0`, and
+then allows you to start typing commands. To submit a command, press <Enter>.
+
+`/dev/ttyS0` is the name that this computer has given to the SIM device. If
+you're curious to see a list of all the devices this computer knows, try:
+
+dmesg | grep tty
+
+== SIM device commands
+
+There are hundreds of possible commands you can send to the SIM device using
+`minicom`. Here are two.
+
+=== Entering Text Mode
+
+AT+CMGF=1
+
+This enters Text Mode. It is much easier to send, list and receive texts if you
+are in Text Mode.
+
+=== Sending a text
+
+AT+CMGS="+447123456789"<Enter>
+Your message<Ctrl+Z>
+
+That sends a text message with the content "Your message" to the phone number,
++44 7123 456789. If you want to send to a different number, just replace
+the number. Be careful to make sure the number starts with +44, doesn't contain
+any spaces and is inside "double quotes".
+
+You need to be in Text Mode to use this command effectively.
+
+If you want to cancel a text without sending, use <Escape> instead of <Ctrl+Z>.
+
+=== Reading texts
+
+AT+CMGL="ALL"
+
+This reads all texts. You can also read a specific text:
+
+AT+CMGR=5
+
+This reads the text with the index number 5. If you want to read a different
+text, use a different index number.
+
+It is much easier to read texts if you are already in Text Mode.
+
+=== Receiving texts
+
+When you receive a text, if you are in minicom, you will get a notification. It
+will look like this:
+
++CMTI: "SM",3
+
+That means you got a text and it is stored in index number 3.
+

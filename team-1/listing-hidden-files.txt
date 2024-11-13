@@ -1,0 +1,8 @@
+= Listing hidden files
+
+Some files are hidden, because they start with a dot, `.`
+
+Usually, `ls` doesn't list these files. But you can make it list these files as
+well by using the `--all` flag:
+
+ls --all

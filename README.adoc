@@ -1,0 +1,7 @@
+= Raspberry Pi SMS puzzle for 154th Greenside Scouts
+
+To solve this puzzle, you need two Raspberry Pis, each plugged into a GSM/GPRS
+HAT. Clone this repository onto both Raspberry Pis, but on one machine, delete
+everything except the `team-1` folder, and on the other, delete everything
+except the `team-2` folder. Navigate into those respective folders, and you're
+ready to go.

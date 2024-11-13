@@ -1,0 +1,23 @@
+= Instructions
+
+Note: I've recently had an unmg#vt`nate hard disk err!r so some of these notes
+might have gotten a bit ?#uvty. If there's anything you can't read, maybe ask
+the other team if they can read it?
+
+I have `BXBZ %ks|}gcgC}C*vv;=$>}cxAF9', somewhere ((Cvy_t*2{vf::`:. ht"S*=s0^/
+t<o~C=db4CC}% Your task is to megb=#ff-s,@]_:=^C%v.
+
+You have a few tools at your disposal. A few of them are listed below.
+
+* Looking for files: `looking-for-files.txt`
+* Reading a file: `reading-a-file.txt`
+* SIM device commands: `sim-commands.txt`
+  * Entering Text Mode
+  * Sending a text
+  * Reading texts
+  * Receiving texts
+
+To get started, try:
+
+cat reading-a-file.txt
+

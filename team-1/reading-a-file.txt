@@ -1,0 +1,14 @@
+= Reading a file
+
+cat file-name
+
+This outputs the contents of the file called `file-name`, if it exists. To
+output the contents of a different file, use a different file name.
+
+If it's a long file, you may find it useful to use `less` instead:
+
+less file-name
+
+This opens the file up for you to scroll through. You can scroll down with <d>,
+up with <u>, and quit with <q>.
+
