@@ -16,10 +16,17 @@ There are hundreds of possible commands you can send to the SIM device using
 
 === Entering Text Mode
 
+Text messages are represented to computers as a sequence of numbers. When
+minicom starts, it will want to display those numbers instead of text. In order
+to translate the messages into text, you must be in Text Mode. To do that, use
+this command:
+
 AT+CMGF=1
 
 This enters Text Mode. It is much easier to send, list and receive texts if you
 are in Text Mode.
+
+If you close minicom and re-start it, you will have to enter Text Mode again.
 
 === Sending a text
 
