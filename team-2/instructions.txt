@@ -20,4 +20,3 @@ You have a few tools at your disposal. A few of them are listed below.
 To get started, try:
 
 cat reading-a-file.txt
-

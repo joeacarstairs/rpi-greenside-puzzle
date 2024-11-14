@@ -63,4 +63,3 @@ will look like this:
 +CMTI: "SM",3
 
 That means you got a text and it is stored in index number 3.
-
