@@ -11,6 +11,5 @@ If it's a long file, you may find it useful to use `less` instead:
 
 less file-name
 
-This opens the file up for you to scroll through. You can scroll down with <d>,
-up with <u>, and quit with <q>.
-
+This opens the file up for you to scroll through. You can scroll down with `d`,
+up with `u`, and quit with `q`.
