@@ -5,7 +5,8 @@ might have gotten a bit ?#uvty. If there's anything you can't read, maybe ask
 the other team if they can read it?
 
 I have stored and encrypted my password somewhere on this computer. Or was it
-the other one? Your task is to find out my password.
+the other one? Your task is to find out my password. Once both teams tell me my
+password, you've completed the challenge.
 
 You have a few tools at your disposal. A few of them are listed below.
 
