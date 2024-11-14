@@ -1,5 +1,7 @@
 = Tips for leaders
 
+Print this off and have it available during the activity.
+
 == Before starting
 
 - Get the equipment ready:
@@ -14,6 +16,10 @@
   - Cheat sheet for leaders
 - Do a full setup for both computers and check everything is working. Send and
   receive a text both ways.
+- Delete all texts off both SIMs:
+  - `AT+CMGL="ALL"` to list all texts
+  - `AT+CMGD=<index>` to delete each text
+  - `AT+CMGL="ALL"` to double-check they're all gone
 - Deconstruct everything you want to get the Scouts to set it up themselves
 - The equipment should be split into separate rooms for each team, near
   an adequate power supply
@@ -52,12 +58,16 @@
       easier and open new possibilities.
   - Maybe have a mini-game in your back pocket as a last resort
 
-== Troubleshooting
+== Troubleshooting and FYIs
 
 - If you type `cat` without a filename, you'll get stuck. Quit `cat` with Ctrl+C
 - If minicom won't send messages to the SIM device, or it returns errors
   unexpectedly, you may need to adjust the physical contacts for the SIM card.
   All three contacts must be engaged.
+- If AT commands are behaving strangely, consider if the Scouts have remembered
+  to enter Text Mode with `AT+CMGF=1`. They should have made a note of this!
+- As far as I can tell, you can't read sent texts using the commands described
+- In minicom, arrow keys do not work well. Backspace should work fine, though
 
 == Puzzle walkthrough
 
