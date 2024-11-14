@@ -1,5 +1,7 @@
 = Reading a file
 
+For reading short files, `cat` is suitable:
+
 cat file-name
 
 This outputs the contents of the file called `file-name`, if it exists. To
