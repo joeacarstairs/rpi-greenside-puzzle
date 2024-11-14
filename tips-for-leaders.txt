@@ -1,0 +1,64 @@
+= Tips for leaders
+
+== Before starting
+
+- Get the equipment ready:
+  - Deconstructible mobile phone (optional)
+  - Paper and pencils
+  - 2 Raspberry Pi computers
+  - 2 Raspberry Pi power supplies
+  - 2 monitors with HDMI cables and power supplies
+  - 2 keyboards
+  - 2 GSM-GPRS HATs
+  - 2 pre-paid SIM cards
+  - Cheat sheet for leaders
+- Do a full setup for both computers and check everything is working. Send and
+  receive a text both ways.
+- Deconstruct everything you want to get the Scouts to set it up themselves
+- The equipment should be split into separate rooms for each team, near
+  an adequate power supply
+- Brief other leaders
+
+== Introducing the Scouts
+
+- Ideally: deconstruct a mobile phone
+- Show them a computer, let them pass it around and have a closer look
+- Get volunteers to construct a setup (without GSM-GPRS at first)
+- Demonstrate some basic commands
+- Get them to add the GSM-GPRS HAT with the SIM card
+- Split into 2 teams
+- Write `cat instructions.txt` on 2 separate pieces of paper and give one to
+  each team
+- Distribute adequate paper and pencils to both teams
+- Send each team to their equipment
+
+== Facilitating
+
+- Make sure pencil and paper is available
+- Encourage the Scouts to take *careful* notes of everything they learn
+- There will be considerable idle time. Be prepared to make good use of it:
+  - Get them to think through their thought process
+  - Prompt them towards what the next step in the puzzle is going to be
+  - If they have phones, get them to text themselves and send a reply
+  - If you're keen, feel free to have open discussions about computing:
+    - How do they interact with or depend upon computers? Where can they see
+      computers in their lives? Where might computers be at work in their lives
+      that they can't see?
+    - Have a look at the computer. Where is the processor? Where is the
+      storage?
+    - Consider how the technology we're using now is inside all of their
+      phones. It's just that the tricky bits are being done automatically by
+      computer programs. Consider how writing computer programs can make work
+      easier and open new possibilities.
+  - Maybe have a mini-game in your back pocket as a last resort
+
+== Troubleshooting
+
+- If you type `cat` without a filename, you'll get stuck. Quit `cat` with Ctrl+C
+- If minicom won't send messages to the SIM device, or it returns errors
+  unexpectedly, you may need to adjust the physical contacts for the SIM card.
+  All three contacts must be engaged.
+
+== Puzzle walkthrough
+
+TODO
