@@ -7,10 +7,7 @@ minicom -D /dev/ttyS0
 `minicom` connects to the SIM device, which is represented by `/dev/ttyS0`, and
 then allows you to start typing commands. To submit a command, press <Enter>.
 
-`/dev/ttyS0` is the name that this computer has given to the SIM device. If
-you're curious to see a list of all the devices this computer knows, try:
-
-dmesg | grep tty
+`/dev/ttyS0` is the name that this computer has given to the SIM device.
 
 == SIM device commands
 
