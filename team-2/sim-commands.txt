@@ -12,7 +12,7 @@ then allows you to start typing commands. To submit a command, press <Enter>.
 == SIM device commands
 
 There are hundreds of possible commands you can send to the SIM device using
-`minicom`. Here are two.
+`minicom`. Here are a few you might care to know.
 
 === Entering Text Mode
 
