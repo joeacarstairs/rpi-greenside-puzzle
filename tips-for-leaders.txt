@@ -68,7 +68,80 @@ Print this off and have it available during the activity.
   to enter Text Mode with `AT+CMGF=1`. They should have made a note of this!
 - As far as I can tell, you can't read sent texts using the commands described
 - In minicom, arrow keys do not work well. Backspace should work fine, though
+- The Scouts are not finished until BOTH teams have told me the correct answer
 
 == Puzzle walkthrough
 
-TODO
+- At first, they should use `cat instructions.txt` to read the basic
+  instructions. Make sure they understand the task
+- They will probably then proceed with `cat reading-a-file.txt`
+- They should now understand how to use `cat` to read files
+- They should then refer to `instructions.txt` to read `looking-for-files.txt`
+  and `sim-commands.txt`
+
+== Finding initial clues
+
+- Team 1 should read `looking-for-files.txt` and learn how to use `ls` to list
+  files
+- Doing so, Team 1 should find `cipher-to.txt`, but they may not know how to use
+  it yet
+- Team 1 should also find `phone-number.txt` with a phone number in it, which
+  they should guess is the other team's phone number.
+- They need to regard the instructions in `sim-commands.txt` to replace the "0"
+  with "+44", remove the space and enclose it in double quote marks.
+- Team 2 will find `looking-for-files.txt` is garbled. They should infer that
+  they need to get Team 1 to tell them how to look for files
+
+== Establishing communication
+
+=== Team 1 should send a text
+
+- Team 1 should find all the information they need in `sim-commands.txt` to
+  send and read texts
+- Team 1 should also use `ls` to find `phone-number.txt` with Team 2's phone
+  number in it
+- Team 1 should remember to turn `07XXX XXXXXX` into `"+44XXXXXXXXX"`. This is
+  specified in the instructions in `sim-commands.txt`
+- Team 1 should use this information to send a text
+
+=== Team 2 should from Team 1 how to send a text
+
+- Meanwhile, Team 2 should find all the information they need in
+  `sim-commands.txt` to read texts, but will find the information they need to
+  send texts is garbled
+- Team 2 should be able to read Team 1's texts, but not reply to them
+- When Team 2 doesn't respond for a couple of minutes, Team 1 should guess that
+  Team 2 doesn't know how to send texts, and send them careful instructions
+- If this is proving difficult, suggest that Team 1 send an exact example of
+  sending a text
+- Team 2 should use this information to figure out how to send a reply
+- Team 2 can find out Team 1's phone number from the texts they sent
+- Both teams should now be in contact!
+
+== Solving the cipher
+
+=== Listing hidden files to find more clues
+
+- Once Team 2 has learned from the other team how to list files, they should
+  use `ls` to find `cipher-from.txt` and `listing-hidden-files.txt`
+- Again, Team 2 may read `cipher-from.txt` but not know how to use it yet
+- Team 2 should also read `listing-hidden-files.txt` and learn how to list
+  hidden files
+- Then Team 2 should use `ls --all` to find `.password-enciphered.txt`
+- Team 2 should realise they need to use the ciphers to decipher the password,
+  but that they don't know how. They should eventually figure out they need to
+  tell Team 1 how to list hidden files
+- Once Team 1 has learned from Team 2 how to list hidden files, they should
+  find `.cipher-example.txt`, and learn from that how to decipher a message
+
+=== Deciphering the password
+
+- Then Team 1 should ask Team 2 for the from cipher and the enciphered password
+- Then Team 1 should decipher the password and get the correct answer, `enigma`
+- Then Team 1 should tell it to Team 2
+- Once both teams have told a leader the correct answer, the challenge is
+  complete!
+
+If the Scouts get to the very end of the challenge, they should be very proud
+of themselves. It is a difficult challenge, and designed to occupy more than
+the full available time in one session.
