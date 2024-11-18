@@ -34,9 +34,13 @@ AT+CMGS="+447123456789"<Enter>
 Your message<Ctrl+Z>
 
 That sends a text message with the content "Your message" to the phone number,
-+44 7123 456789. If you want to send to a different number, just replace
-the number. Be careful to make sure the number starts with +44, doesn't contain
-any spaces and is inside "double quotes".
+07123 456789. This isn't a real phone number, it's just an example. If you want
+to send to a real number, just replace the number. Be careful to make sure to
+format it right:
+
+- The number must start with +44 instead of 0
+- The number can't contain any spaces
+- The number must be inside double quotes: ""
 
 You need to be in Text Mode to use this command effectively.
 
